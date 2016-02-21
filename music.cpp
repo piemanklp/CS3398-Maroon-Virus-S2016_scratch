@@ -4,6 +4,19 @@
  *  Created on: Feb 20, 2016
  *      Author: Marcel Erskine
  */
+class Scales{
+    //Thomas Jordan
+    //This class will data that a user will call upon to access certain musical scales.
+    //A scale is any set of musical notes ordered by fundamental frequency or pitch.
+    //A user will be able to access a limited number of the most basic scales to see such things as what notes they are comprised of,
+    //what they sound like, and the type of scale.
+
+    //Members of this class will be functions that:
+    //-output sound
+    //-provide a list of available scales (dropdown menu or user input referencing a static menu in the window)
+    //-output the notes comprising the scale in character format, in order, for the user to view.
+    //-provide a sort of "biography" for each scale to be output when a certain one is selected.
+};
 class Chords{ // Contains all major chords. Will play a certain chord upon being prompted
 			 // Seperating both the chord and scale classes makes it easier to edit each
 			// sections code.
