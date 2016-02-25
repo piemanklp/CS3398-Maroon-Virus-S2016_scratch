@@ -46,7 +46,7 @@ void metronome()
 
     metWindow->show();
 }
-void MainWindow::on_pushButton_2_clicked()
+void MainWindow::on_actionOpen_triggered()
 {
     metronome();
 }
