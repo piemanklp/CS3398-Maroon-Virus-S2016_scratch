@@ -46,7 +46,13 @@ void metronome()
 
     metWindow->show();
 }
+
+void playNote(){
+
+}
 void MainWindow::on_actionOpen_triggered()
 {
     metronome();
+    playNote();
 }
+
