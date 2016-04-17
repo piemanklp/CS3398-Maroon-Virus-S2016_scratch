@@ -15,69 +15,67 @@
   </property>
   <property name="windowIcon">
    <iconset resource="myresources.qrc">
-    <normaloff>:/Images/2000px-Simple_Music.svg.png</normaloff>:/Images/2000px-Simple_Music.svg.png</iconset>
+    <normaloff>:/resources/2000px-Simple_Music.svg.png</normaloff>:/resources/2000px-Simple_Music.svg.png</iconset>
   </property>
   <property name="styleSheet">
-   <string notr="true"/>
+   <string notr="true">.QStatusBar {
+	background-color: #003366;
+}
+.QWidget {
+	background-color: #C0C0C0;
+}</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>30</y>
-      <width>191</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Enter a note to generate a progression: </string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>30</y>
-      <width>113</width>
-      <height>20</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
       <x>160</x>
-      <y>60</y>
+      <y>90</y>
       <width>75</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>Let's hear it!</string>
+     <string>Metronome</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>10</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Eras Medium ITC</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Welcome to Mr. Music</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>90</y>
-      <width>121</width>
-      <height>16</height>
+      <x>100</x>
+      <y>50</y>
+      <width>211</width>
+      <height>20</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Eras Medium ITC</family>
+      <pointsize>11</pointsize>
+      <italic>true</italic>
+     </font>
     </property>
     <property name="text">
-     <string>Your Chord Progression:</string>
-    </property>
-   </widget>
-   <widget class="QPlainTextEdit" name="plainTextEdit">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>120</y>
-      <width>381</width>
-      <height>91</height>
-     </rect>
+     <string>The Interactive Musician's Tool</string>
     </property>
    </widget>
   </widget>
@@ -91,34 +89,6 @@
      <height>21</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuMr_Music">
-    <property name="title">
-     <string>Generator</string>
-    </property>
-    <addaction name="actionOpen_4"/>
-   </widget>
-   <widget class="QMenu" name="menuMetronome">
-    <property name="title">
-     <string>Metronome</string>
-    </property>
-    <addaction name="actionOpen"/>
-   </widget>
-   <widget class="QMenu" name="menuScales">
-    <property name="title">
-     <string>Scales</string>
-    </property>
-    <addaction name="actionOpen_2"/>
-   </widget>
-   <widget class="QMenu" name="menuResources">
-    <property name="title">
-     <string>Resources</string>
-    </property>
-    <addaction name="actionOpen_3"/>
-   </widget>
-   <addaction name="menuMr_Music"/>
-   <addaction name="menuScales"/>
-   <addaction name="menuMetronome"/>
-   <addaction name="menuResources"/>
   </widget>
   <action name="actionOpen">
    <property name="text">

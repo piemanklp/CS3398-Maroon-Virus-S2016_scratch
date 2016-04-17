@@ -21,3 +21,7 @@ FORMS    += mainwindow.ui
 
 RESOURCES += \
     myresources.qrc
+
+LIBS += -lwinmm
+
+CONFIG += c++11

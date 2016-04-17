@@ -1,5 +1,7 @@
 <RCC>
-    <qresource prefix="/Images">
+    <qresource prefix="/resources">
         <file>2000px-Simple_Music.svg.png</file>
+        <file>low.wav</file>
+        <file>high.wav</file>
     </qresource>
 </RCC>
